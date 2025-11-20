@@ -1,0 +1,26 @@
+name: Revisión de ortografía y redacción
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+
+jobs:
+  languagetool:
+    name: LanguageTool
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Analizar ortografía y redacción
+        uses: reviewdog/action-languagetool@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          locale: es
+          level: default
+          filter_mode: nofilter
+          reporter: github-pr-review
+          annotation_level: warning
+          targets: |
+            **/*.md

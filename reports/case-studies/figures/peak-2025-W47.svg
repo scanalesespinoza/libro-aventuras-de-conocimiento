@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Actividad semanal alrededor del pico 2025-W47</title>
+  <desc id="desc">Barras para LOC cambiadas por semana y línea para commits por semana, mostrando el pico 2025-W47.</desc>
+  <style>
+    .axis { stroke: #444; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font: 12px 'DejaVu Sans', sans-serif; fill: #333; }
+    .title { font: 16px 'DejaVu Sans', sans-serif; font-weight: bold; fill: #111; }
+  </style>
+  <rect width="640" height="360" fill="#fff" />
+  <text x="320" y="26" text-anchor="middle" class="title">Actividad semanal alrededor del pico 2025-W47</text>
+  <g transform="translate(70,40)">
+    <line class="axis" x1="0" y1="0" x2="0" y2="250" />
+    <line class="axis" x1="0" y1="250" x2="500" y2="250" />
+    <!-- grid lines -->
+    <g stroke-dasharray="2,3" class="grid">
+      <line x1="0" y1="50" x2="500" y2="50" />
+      <line x1="0" y1="100" x2="500" y2="100" />
+      <line x1="0" y1="150" x2="500" y2="150" />
+      <line x1="0" y1="200" x2="500" y2="200" />
+    </g>
+    <!-- y-axis labels LOC -->
+    <text x="-10" y="255" text-anchor="end" class="label">0</text>
+    <text x="-10" y="205" text-anchor="end" class="label">400</text>
+    <text x="-10" y="155" text-anchor="end" class="label">800</text>
+    <text x="-10" y="105" text-anchor="end" class="label">1 200</text>
+    <text x="-10" y="55" text-anchor="end" class="label">1 600</text>
+    <text x="-50" y="140" transform="rotate(-90 -50 140)" class="label">LOC cambiadas</text>
+    <!-- bars -->
+    <g fill="#6baed6">
+      <rect x="25" y="250" width="60" height="0" />
+      <rect x="125" y="250" width="60" height="0" />
+      <rect x="225" y="0" width="60" height="250" />
+      <rect x="325" y="250" width="60" height="0" />
+      <rect x="425" y="250" width="60" height="0" />
+    </g>
+    <!-- x-axis labels -->
+    <text x="55" y="275" text-anchor="middle" class="label">2025-W45</text>
+    <text x="155" y="275" text-anchor="middle" class="label">2025-W46</text>
+    <text x="255" y="275" text-anchor="middle" class="label">2025-W47</text>
+    <text x="355" y="275" text-anchor="middle" class="label">2025-W48</text>
+    <text x="455" y="275" text-anchor="middle" class="label">2025-W49</text>
+    <!-- commits line -->
+    <polyline fill="none" stroke="#ef8a62" stroke-width="2" points="55,250 155,250 255,220 355,250 455,250" />
+    <g fill="#ef8a62">
+      <circle cx="55" cy="250" r="4" />
+      <circle cx="155" cy="250" r="4" />
+      <circle cx="255" cy="220" r="4" />
+      <circle cx="355" cy="250" r="4" />
+      <circle cx="455" cy="250" r="4" />
+    </g>
+    <!-- right y-axis label -->
+    <text x="540" y="140" transform="rotate(-90 540 140)" class="label">Commits</text>
+  </g>
+  <!-- legend -->
+  <g transform="translate(430,70)" class="label">
+    <rect x="0" y="0" width="14" height="14" fill="#6baed6" />
+    <text x="20" y="12">LOC cambiadas/semana</text>
+    <line x1="0" y1="32" x2="14" y2="32" stroke="#ef8a62" stroke-width="2" />
+    <circle cx="7" cy="32" r="4" fill="#ef8a62" />
+    <text x="20" y="36">Commits/semana</text>
+  </g>
+</svg>

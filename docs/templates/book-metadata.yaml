@@ -1,0 +1,18 @@
+---
+title: "Aventuras de conocimiento"
+subtitle: "Historias de IA, software y colaboración abierta"
+author:
+  - name: "Equipo editor"
+lang: es-ES
+date: "2024-01-01"
+rights: "CC BY-NC-SA 4.0"
+toc-title: "Contenido"
+keywords:
+  - tecnologia
+  - inteligencia artificial
+  - comunidades
+header-includes:
+  - "\\usepackage{fontspec}"
+  - "\\usepackage{hyperref}"
+  - "\\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}"
+...

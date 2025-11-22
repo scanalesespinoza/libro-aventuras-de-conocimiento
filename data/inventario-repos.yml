@@ -1,0 +1,283 @@
+- id: all-about-me
+  name: "all-about-me"
+  repo_url: "https://github.com/scanalesespinoza/all-about-me"
+  short_description: "all-about-me"
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: the-wise-tech
+  name: "the-wise-tech"
+  repo_url: "https://github.com/scanalesespinoza/the-wise-tech"
+  short_description: "A project focused on using technology to improve life quality and foster meaningful human connections."
+  type: "desconocido"
+  main_tech:
+    - "Python"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: libro-aventuras-de-conocimiento
+  name: "libro-aventuras-de-conocimiento"
+  repo_url: "https://github.com/scanalesespinoza/libro-aventuras-de-conocimiento"
+  short_description: "libro-aventuras-de-conocimiento"
+  type: "desconocido"
+  main_tech:
+    - "Python"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: eventflow
+  name: "eventflow"
+  repo_url: "https://github.com/scanalesespinoza/eventflow"
+  short_description: "Smart event management platform: spaces, activities, speakers, attendees, and personalized planning."
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: arkit8s
+  name: "arkit8s"
+  repo_url: "https://github.com/scanalesespinoza/arkit8s"
+  short_description: "Living, GitOps-driven architecture for Kubernetes and OpenShift. Pronounced like “architects”."
+  type: "desconocido"
+  main_tech:
+    - "Python"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: demo-intelligent-administrator
+  name: "demo-intelligent-administrator"
+  repo_url: "https://github.com/scanalesespinoza/demo-intelligent-administrator"
+  short_description: ""
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: architecting-teams-before-platforms
+  name: "architecting-teams-before-platforms"
+  repo_url: "https://github.com/scanalesespinoza/architecting-teams-before-platforms"
+  short_description: "Architecting Teams before Platforms"
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: soe-eda-runner
+  name: "soe-eda-runner"
+  repo_url: "https://github.com/scanalesespinoza/soe-eda-runner"
+  short_description: "Objetivo: recibir código Python → empaquetar/inyectar deps → ejecutar como Job (entreno/pruebas) o Deployment (servicio inferencia) → configurable por ConfigMaps y datos en PVC → integrable vía GitOps/MLOps."
+  type: "desconocido"
+  main_tech:
+    - "Python"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: deeplearning-usecases-lib
+  name: "deeplearning-usecases-lib"
+  repo_url: "https://github.com/scanalesespinoza/deeplearning-usecases-lib"
+  short_description: "deeplearning-usecases-lib"
+  type: "desconocido"
+  main_tech:
+    - "Python"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: quarkus-txt-report-frontend
+  name: "quarkus-txt-report-frontend"
+  repo_url: "https://github.com/scanalesespinoza/quarkus-txt-report-frontend"
+  short_description: "Simple metric for not ready deployments"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: acofitec
+  name: "acofitec"
+  repo_url: "https://github.com/scanalesespinoza/acofitec"
+  short_description: "Acofitec.cl main site"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: 3scale-gitops-service
+  name: "3scale-gitops-service"
+  repo_url: "https://github.com/scanalesespinoza/3scale-gitops-service"
+  short_description: "This service check git repo with services as csv and sincronize it into 3Scale using toolbox commands"
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: ascendant-faith-rpg
+  name: "ascendant-faith-rpg"
+  repo_url: "https://github.com/scanalesespinoza/ascendant-faith-rpg"
+  short_description: "A mythic RPG system where mortals transcend limits through physical and spiritual mastery to challenge fate, gods, and the world itself."
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: eventflow-event-as-code
+  name: "eventflow-event-as-code"
+  repo_url: "https://github.com/scanalesespinoza/eventflow-event-as-code"
+  short_description: "EventFlow Events definitions"
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: super-app-framework
+  name: "super-app-framework"
+  repo_url: "https://github.com/scanalesespinoza/super-app-framework"
+  short_description: "Cloud Native Development framework for resilient and failure proof services and functions"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: updated-manifests-bundle
+  name: "updated-manifests-bundle"
+  repo_url: "https://github.com/scanalesespinoza/updated-manifests-bundle"
+  short_description: "MVP ligero de monitorización de estabilidad en Kubernetes/OpenShift con Quarkus nativo"
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: deploymentconfig-2-deployment
+  name: "deploymentconfig-2-deployment"
+  repo_url: "https://github.com/scanalesespinoza/deploymentconfig-2-deployment"
+  short_description: "Web page to migrate deployments"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: sc-cloud-native-demo
+  name: "sc-cloud-native-demo"
+  repo_url: "https://github.com/scanalesespinoza/sc-cloud-native-demo"
+  short_description: "Generated by code.quarkus.io"
+  type: "desconocido"
+  main_tech:
+    - "HTML"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: katsuragi-java-nlp
+  name: "katsuragi-java-nlp"
+  repo_url: "https://github.com/scanalesespinoza/katsuragi-java-nlp"
+  short_description: "java nlp from scratch"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: minimal-service
+  name: "minimal-service"
+  repo_url: "https://github.com/scanalesespinoza/minimal-service"
+  short_description: "This project demonstrates how to build minimal, high-performance, and lightweight services in Java"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2025
+  notes: ""
+- id: three-context-framework
+  name: "three-context-framework"
+  repo_url: "https://github.com/scanalesespinoza/three-context-framework"
+  short_description: "The Three-Context Architecture is designed to empower developers in creating high-quality, resilient microservices with a focus on organized code, robust error handling, and resilience. This framework provides a structured approach that can withstand the demands of modern applications."
+  type: "desconocido"
+  main_tech:
+    - "HTML"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: resilient-demo
+  name: "resilient-demo"
+  repo_url: "https://github.com/scanalesespinoza/resilient-demo"
+  short_description: "This repository provides instructions for setting up a demo environment to showcase resilience features of a Quarkus application with a frontend and backend service using PostgreSQL as the database. The setup uses Podman."
+  type: "desconocido"
+  main_tech: []
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: resilient-frontend
+  name: "resilient-frontend"
+  repo_url: "https://github.com/scanalesespinoza/resilient-frontend"
+  short_description: "Front end con gestión de fallas a backend"
+  type: "desconocido"
+  main_tech:
+    - "JavaScript"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: resilient-app
+  name: "resilient-app"
+  repo_url: "https://github.com/scanalesespinoza/resilient-app"
+  short_description: "Resilient integration of Web Service Quarkus to Database"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: kubeland
+  name: "kubeland"
+  repo_url: "https://github.com/scanalesespinoza/kubeland"
+  short_description: "Client visualization for Kubernetes workloads"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: map-service-demo
+  name: "map-service-demo"
+  repo_url: "https://github.com/scanalesespinoza/map-service-demo"
+  short_description: "Quarkus gRPC Map Service"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: geto-server
+  name: "geto-server"
+  repo_url: "https://github.com/scanalesespinoza/geto-server"
+  short_description: "Gate server base on websockets"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: java-rpg-proto
+  name: "java-rpg-proto"
+  repo_url: "https://github.com/scanalesespinoza/java-rpg-proto"
+  short_description: "Prototype of pure java standard rpg game"
+  type: "desconocido"
+  main_tech:
+    - "Java"
+  status: "desconocido"
+  created_year: 2024
+  notes: ""
+- id: battlebit-tower
+  name: "battlebit-tower"
+  repo_url: "https://github.com/scanalesespinoza/battlebit-tower"
+  short_description: "BattleBit Tower"
+  type: "desconocido"
+  main_tech:
+    - "SCSS"
+  status: "desconocido"
+  created_year: 2020
+  notes: ""

@@ -59,3 +59,9 @@
 - **Citas clave para la narración**:
   - > "Si de este relato surge alguna idea aplicable, alguna pregunta nueva o simplemente una sensación de compañía... el esfuerzo habrá cumplido su propósito." (Prólogo)
   - > "Establecer una convención para versiones y revisiones de cada texto." (Estructura del libro)
+
+## Flujo editorial y plantillas
+
+- Usa `docs/templates/chapter-template.md` como base para nuevos capítulos con metadatos y secciones predefinidas.
+- El archivo `docs/templates/book-metadata.yaml` centraliza título, derechos y ajustes de tipografía para Pandoc/LaTeX.
+- La compilación a PDF/EPUB se realiza con `scripts/build_book.sh`, que copia figuras y tablas desde `reports/` a `docs/build/assets/` antes de renderizar.

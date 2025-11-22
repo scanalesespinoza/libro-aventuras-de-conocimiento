@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "libro-aventuras-de-conocimiento"
+version = "0.1.0"
+description = "Material del libro Aventuras de conocimiento y scripts de datos asociados."
+authors = ["Autores del libro <autor@example.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pandas = "^2.2.2"
+pyarrow = { version = "^17.0.0", optional = true }
+
+[tool.poetry.extras]
+parquet = ["pyarrow"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,3 @@
+| dominant_topic | textos | puntaje_promedio |
+| --- | --- | --- |
+| automatizacion_y_herramientas | 13 | 6.62 |

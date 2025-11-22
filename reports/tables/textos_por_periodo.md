@@ -1,0 +1,3 @@
+| time_bucket | dominant_topic | textos | puntaje_promedio |
+| --- | --- | --- | --- |
+| 2025-11 | automatizacion_y_herramientas | 13 | 6.62 |

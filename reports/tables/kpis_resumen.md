@@ -1,0 +1,7 @@
+| kpi | valor | detalle |
+| --- | --- | --- |
+| Repos observados | 1 | Repositorios con textos clasificados |
+| Ventanas temporales | 1 | Buckets (mes o semana) presentes en el set procesado |
+| Textos clasificados | 13 | Total de textos usados para clasificación |
+| Temas dominantes | 1 | Número de temas asignados como dominantes |
+| Puntaje promedio de tema | 6.62 | Confianza promedio en la clasificación de tópicos |

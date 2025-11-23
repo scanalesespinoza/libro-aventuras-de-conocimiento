@@ -1,7 +1,7 @@
 ## Capítulo 4 – Resiliencia aplicada en demos cloud native
 
 ### Objetivo de resiliencia y alcance de las demos
-La línea narrativa de resiliencia y operación cloud native busca validar patrones que mantengan servicios disponibles bajo fallas controladas. Los repositorios reunidos en este capítulo funcionan como laboratorio para observar cómo responde una pila completa cuando se aplican pruebas de presión. El objetivo no es prometer infalibilidad, sino mostrar mecanismos concretos para sostener la operación y recuperar estabilidad.
+La línea narrativa de resiliencia y operación cloud native busca validar patrones que mantengan servicios disponibles ante fallas controladas. Los repositorios reunidos en este capítulo funcionan como laboratorio para observar cómo responde una pila completa cuando se aplican pruebas de presión. El objetivo no es prometer infalibilidad, sino mostrar mecanismos concretos para sostener la operación y recuperar estabilidad.
 
 La selección de repositorios cubre desde componentes mínimos hasta demos integrales. Cada pieza aporta un ángulo específico: definición de patrones, empaquetado de manifiestos, instrumentación de fallos o visualización de resultados. La narrativa documenta cómo estos elementos se combinan para formar escenarios reproducibles en Kubernetes u OpenShift.
 
@@ -10,7 +10,7 @@ El alcance se limita a experimentos observables. Se describen configuraciones, f
 ### Evolución de patrones desde mínimos a integrales
 **minimal-service** ofrece el punto de partida: demuestra cómo construir servicios livianos y performantes en Java. Su énfasis en sencillez establece una base sobre la que se pueden probar patrones de tolerancia a fallas sin carga excesiva. Actúa como núcleo sobre el que se agregan otras capacidades.
 
-**super-app-framework** amplía esa base con un marco orientado a alta disponibilidad. Propone componentes para crear aplicaciones resilientes y seguras, también en Java. En la narrativa, este repositorio representa el salto desde un servicio mínimo hacia una arquitectura que anticipa fallos y busca absorberlos.
+El repositorio `super-app-framework` amplía esa base con un marco orientado a alta disponibilidad. Propone componentes para crear aplicaciones resilientes y seguras, también en Java. En la narrativa, este repositorio representa el salto desde un servicio mínimo hacia una arquitectura que anticipa fallos y busca absorberlos.
 
 **updated-manifests-bundle** y **sc-cloud-native-demo** muestran cómo empaquetar y desplegar esas ideas. El primero reúne manifiestos que habilitan un MVP de monitoreo de estabilidad con Quarkus nativo; el segundo funciona como demo generada desde plantillas de Quarkus. Juntos ilustran la progresión: partir de un servicio pequeño, encapsularlo en manifiestos reproducibles y mostrarlo en un entorno demo.
 
@@ -29,7 +29,7 @@ Otros frontends presentes en la línea, como resilient-frontend, sirven para val
 La conexión entre interfaces y backend cierra el ciclo de evaluación. Los reportes y vistas no solo informan; también facilitan decisiones sobre siguientes iteraciones. Documentar esta conexión mantiene coherencia con la práctica de revisiones compartidas que atraviesa el libro.
 
 ### Aprendizajes operativos y próximos pasos
-Un aprendizaje central es que la resiliencia requiere un recorrido gradual. Comenzar con minimal-service y super-app-framework permite probar patrones en pequeño antes de escalar a demos completas. Esa progresión reduce riesgos y deja trazabilidad sobre qué ajustes funcionaron.
+Un aprendizaje central es que la resiliencia requiere un recorrido gradual. Comenzar con minimal-service y `super-app-framework` permite probar patrones en pequeño antes de escalar a demos completas. Esa progresión reduce riesgos y deja trazabilidad sobre qué ajustes funcionaron.
 
 Otro hallazgo es la importancia de empaquetar y guiar la ejecución. updated-manifests-bundle y resilient-demo muestran que las instrucciones claras son tan necesarias como el código. Sin ellas, las pruebas pierden repetibilidad y se diluye la observabilidad.
 

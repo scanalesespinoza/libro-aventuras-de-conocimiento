@@ -8,14 +8,14 @@ Las prácticas GitOps aparecen como respuesta a esa brecha. Versionar configurac
 El punto de partida reconoce que la declaratividad no es solo un estilo de escritura, sino una forma de coordinar equipos y entornos. La narrativa mantiene el foco en decisiones observables: qué se versiona, cómo se sincroniza y qué problemas resuelve. Con esa base se abre el camino para explicar el rol de cada repositorio.
 
 ### Repositorios clave y roles complementarios
-**arkit8s** encarna la aspiración de una arquitectura viva. Propone flujos GitOps que mantengan documentación y despliegues alineados. El repositorio sirve como marco para pensar cómo versionar decisiones arquitectónicas y convertirlas en objetos que el clúster pueda aplicar. Actúa como puente entre la intención de diseño y la operación diaria.
+**Arkit8s** encarna la aspiración de una arquitectura viva. Propone flujos GitOps que mantengan documentación y despliegues alineados. El repositorio sirve como marco para pensar cómo versionar decisiones arquitectónicas y convertirlas en objetos que el clúster pueda aplicar. Actúa como puente entre la intención de diseño y la operación diaria.
 
 **eventflow** aborda la gestión de eventos con planificación automatizada. Se concibe como plataforma que organiza espacios, actividades y asistentes, y sugiere personalización a través de reglas. En la narrativa funciona como ejemplo de aplicación empresarial que se beneficia de describir eventos y flujos de manera declarativa.
 
 **eventflow-event-as-code** extiende esa idea al almacenar definiciones de eventos como código. Mantener las entidades y reglas en archivos versionados permite coherencia entre la lógica de negocio y su implementación. La combinación con eventflow muestra cómo la declaratividad baja al nivel de objetos concretos que otros servicios pueden consumir.
 
 ### Ejecución operada desde Git
-**3scale-gitops-service** automatiza la sincronización de servicios API en 3Scale a partir de definiciones en repositorios. Su rol es demostrar que la gestión de APIs también puede seguir el camino GitOps: se revisa un CSV en control de versiones y se aplican comandos para mantener la plataforma alineada. Esto aporta un ejemplo claro de ejecución repetible desde Git.
+**3scale-gitops-service** automatiza la sincronización de servicios API en 3scale a partir de definiciones en repositorios. Su rol es demostrar que la gestión de API también puede seguir el camino GitOps: se revisa un CSV en control de versiones y se aplican comandos para mantener la plataforma alineada. Esto aporta un ejemplo claro de ejecución repetible desde Git.
 
 **deploymentconfig-2-deployment** se enfoca en migraciones de DeploymentConfig a Deployment. Al ofrecer una interfaz para guiar el traslado, refleja cómo la declaratividad facilita modernizaciones controladas. Versionar estos pasos permite reproducirlos y reducir riesgos durante la transición entre modelos de despliegue.
 
@@ -31,6 +31,6 @@ La integración también se nota en las migraciones. deploymentconfig-2-deployme
 ### Aprendizajes y líneas abiertas
 Un primer aprendizaje es que la declaratividad exige disciplina continua. Mantener arkit8s, eventflow y sus artefactos asociados implica revisar constantemente que las definiciones reflejen la realidad. Sin ese hábito, la arquitectura viva se vuelve estática de nuevo.
 
-Otro hallazgo proviene de las integraciones. Automatizar APIs con 3scale-gitops-service y coordinar migraciones con deploymentconfig-2-deployment muestran que GitOps puede abarcar capas diversas del stack. Sin embargo, cada incorporación demanda ajustar flujos de revisión y monitoreo para evitar cambios silenciosos.
+Otro hallazgo proviene de las integraciones. Automatizar API con 3scale-gitops-service y coordinar migraciones con deploymentconfig-2-deployment muestran que GitOps puede abarcar capas diversas del stack. Sin embargo, cada incorporación demanda ajustar flujos de revisión y monitoreo para evitar cambios silenciosos.
 
-Quedan líneas abiertas en cómo escalar estas prácticas. kubeland ofrece visibilidad, pero la expansión a más clústeres o equipos requerirá reforzar métricas y alertas para detectar desalineaciones. La narrativa deja señalados estos retos como preparación para las demos de resiliencia que profundizarán en observabilidad y pruebas controladas.
+Quedan líneas abiertas en cómo escalar estas prácticas. kubeland ofrece visibilidad, pero la expansión a más clústeres o equipos requerirá reforzar métricas y alertas para detectar desalineaciones. La narrativa destaca estos retos como preparación para las demos de resiliencia que profundizarán en observabilidad y pruebas controladas.

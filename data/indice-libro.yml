@@ -1,0 +1,160 @@
+partes:
+  - id: parte-1
+    titulo: "Identidad y propósito editorial"
+    descripcion: >-
+      Presenta la motivación personal y la visión humanista que guía el libro.
+      Sirve como puerta de entrada para entender por qué los proyectos existen y
+      qué aspiración ética comparten.
+    capitulos:
+      - id: cap-1
+        titulo: "Quién escribe y para qué"
+        linea_narrativa: identidad-y-vision-del-autor
+        repositorios_clave:
+          - all-about-me
+          - libro-aventuras-de-conocimiento
+          - the-wise-tech
+        objetivo: >-
+          Exponer la identidad del autor, el propósito editorial y la idea de
+          tecnología al servicio del bienestar. Mostrar cómo estos pilares
+          orientan el resto de proyectos y la selección de ejemplos.
+        notas: >-
+          Usar este capítulo como prólogo contextual. Destacar el tono ético y
+          el mapa personal que se recupera en capítulos posteriores.
+
+  - id: parte-2
+    titulo: "Fundamentos de organización y diseño de trabajo"
+    descripcion: >-
+      Reúne los marcos conceptuales que preparan el terreno antes de la
+      implementación técnica. Explica cómo se estructuran equipos, contextos y
+      responsabilidades.
+    capitulos:
+      - id: cap-2
+        titulo: "Arquitectura de equipos antes del código"
+        linea_narrativa: modelos-de-trabajo-y-arquitectura-organizacional
+        repositorios_clave:
+          - architecting-teams-before-platforms
+          - three-context-framework
+        objetivo: >-
+          Detallar los modelos que ayudan a diseñar equipos y sistemas antes de
+          escribir software. Explicar cómo estas guías sustentan decisiones de
+          resiliencia y escalabilidad en los casos técnicos.
+        notas: >-
+          Enfatizar la relación de estos marcos con las prácticas GitOps y la
+          operación cloud que aparecen después.
+
+  - id: parte-3
+    titulo: "Plataformas declarativas y flujos GitOps"
+    descripcion: >-
+      Explora la evolución de la declaratividad aplicada a plataformas y
+      servicios: definición de eventos, sincronización y migraciones
+      operadas desde repositorios.
+    capitulos:
+      - id: cap-3
+        titulo: "Arquitecturas vivas y eventos como código"
+        linea_narrativa: plataformas-declarativas-y-flujos-gitops
+        repositorios_clave:
+          - arkit8s
+          - eventflow
+          - eventflow-event-as-code
+          - 3scale-gitops-service
+          - deploymentconfig-2-deployment
+          - kubeland
+        objetivo: >-
+          Mostrar el tránsito desde la documentación de arquitecturas hasta su
+          ejecución declarativa. Explicar cómo los flujos GitOps orquestan
+          servicios, eventos y migraciones en entornos Kubernetes/OpenShift.
+        notas: >-
+          Ilustrar conexiones con los modelos organizacionales previos. Señalar
+          cómo estas prácticas preparan el terreno para las demos de resiliencia.
+
+  - id: parte-4
+    titulo: "Prácticas de resiliencia y servicios especializados"
+    descripcion: >-
+      Agrupa los experimentos técnicos que validan patrones de resiliencia y la
+      creación de servicios enfocados, incluyendo extensiones hacia ciencia de
+      datos en producción.
+    capitulos:
+      - id: cap-4
+        titulo: "Resiliencia aplicada en demos cloud native"
+        linea_narrativa: resiliencia-y-operacion-cloud-native
+        repositorios_clave:
+          - super-app-framework
+          - minimal-service
+          - updated-manifests-bundle
+          - sc-cloud-native-demo
+          - resilient-app
+          - resilient-frontend
+          - resilient-demo
+          - quarkus-txt-report-frontend
+        objetivo: >-
+          Recorrer las pruebas de resiliencia desde patrones mínimos hasta demos
+          integrales con frontends asociados. Mostrar cómo se instrumenta la
+          estabilidad y qué aprendizajes operativos emergen.
+        notas: >-
+          Conectar con las prácticas declarativas de la parte anterior. Resaltar
+          hitos de evolución y decisiones que mejoraron la robustez.
+
+      - id: cap-5
+        titulo: "Servicios dedicados y asistentes"
+        linea_narrativa: servicios-especializados-y-asistentes
+        repositorios_clave:
+          - demo-intelligent-administrator
+          - map-service-demo
+          - geto-server
+        objetivo: >-
+          Presentar servicios puntuales que abordan necesidades concretas, desde
+          asistentes automatizados hasta comunicación en tiempo real. Explicar
+          cómo se diseñan para integrarse en ecosistemas más amplios.
+        notas: >-
+          Señalar vínculos con los patrones de resiliencia y con las
+          infraestructuras declarativas cuando corresponda.
+
+      - id: cap-6
+        titulo: "Ciencia de datos y ML en producción"
+        linea_narrativa: ciencia-de-datos-y-ml-en-produccion
+        repositorios_clave:
+          - soe-eda-runner
+          - deeplearning-usecases-lib
+          - katsuragi-java-nlp
+        objetivo: >-
+          Relatar los experimentos para llevar flujos de datos y modelos a
+          entornos de producción. Describir aprendizajes sobre ejecución de
+          código, librerías reutilizables y exploraciones de NLP en Java.
+        notas: >-
+          Indicar cómo estos proyectos se apoyan en la infraestructura
+          declarativa y qué retos quedan abiertos para futuros capítulos.
+
+  - id: parte-5
+    titulo: "Exploración creativa y presencia institucional"
+    descripcion: >-
+      Cierra con los proyectos que expanden el alcance hacia lo lúdico y la
+      representación pública. Muestra la diversidad del ecosistema más allá de
+      la operación técnica.
+    capitulos:
+      - id: cap-7
+        titulo: "Mundos interactivos y juego"
+        linea_narrativa: creatividad-y-mundos-ludicos
+        repositorios_clave:
+          - ascendant-faith-rpg
+          - java-rpg-proto
+          - battlebit-tower
+        objetivo: >-
+          Explorar las propuestas de juego y narrativa interactiva que reflejan
+          creatividad técnica y estética. Resaltar cómo amplían el portafolio
+          hacia experiencias lúdicas.
+        notas: >-
+          Enfatizar la experimentación visual y narrativa. Mencionar cruces con
+          la visión inicial sobre tecnología con propósito.
+
+      - id: cap-8
+        titulo: "Presencia digital"
+        linea_narrativa: presencia-digital-e-institucional
+        repositorios_clave:
+          - acofitec
+        objetivo: >-
+          Explicar la construcción del sitio institucional como reflejo de una
+          identidad profesional. Mostrar cómo complementa la experimentación
+          técnica con una vitrina formal.
+        notas: >-
+          Puede servir como cierre para conectar la trayectoria personal con la
+          presentación pública del trabajo.

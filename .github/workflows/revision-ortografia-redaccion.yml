@@ -17,10 +17,8 @@ jobs:
         uses: reviewdog/action-languagetool@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          locale: es
+          language: es
           level: default
-          filter_mode: nofilter
           reporter: github-pr-review
-          annotation_level: warning
-          targets: |
+          patterns: |
             **/*.md

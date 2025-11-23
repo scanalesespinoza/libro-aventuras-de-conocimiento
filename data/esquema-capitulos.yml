@@ -1,0 +1,276 @@
+capitulos:
+  - id: cap-1
+    titulo: "Quién escribe y para qué"
+    parte: "parte-1"
+    linea_narrativa: "identidad-y-vision-del-autor"
+    repositorios_clave:
+      - all-about-me
+      - libro-aventuras-de-conocimiento
+      - the-wise-tech
+    secciones:
+      - id: cap-1-sec-1
+        titulo: "Contexto personal y motivación editorial"
+        descripcion: >-
+          Presentar el momento en que surge la necesidad de escribir y el
+          propósito ético que sostiene la obra. Enmarcar cómo la visión
+          humanista guía el relato completo.
+      - id: cap-1-sec-2
+        titulo: "Repositorios como mapa biográfico"
+        descripcion: >-
+          Describir cómo all-about-me, libro-aventuras-de-conocimiento y
+          the-wise-tech condensan identidad, documentación y filosofía
+          personal. Explicar la función de cada repositorio dentro de la
+          línea narrativa.
+      - id: cap-1-sec-3
+        titulo: "Principios sobre tecnología con sentido"
+        descripcion: >-
+          Enumerar las ideas centrales sobre tecnología al servicio del
+          bienestar, ilustrando cómo se reflejan en los repositorios clave y
+          en la estructura del libro.
+      - id: cap-1-sec-4
+        titulo: "Puente hacia las siguientes partes"
+        descripcion: >-
+          Conectar la identidad inicial con los temas que seguirán, señalando
+          expectativas y criterios que orientan la lectura del resto de los
+          capítulos.
+
+  - id: cap-2
+    titulo: "Arquitectura de equipos antes del código"
+    parte: "parte-2"
+    linea_narrativa: "modelos-de-trabajo-y-arquitectura-organizacional"
+    repositorios_clave:
+      - architecting-teams-before-platforms
+      - three-context-framework
+    secciones:
+      - id: cap-2-sec-1
+        titulo: "Marco conceptual y punto de partida"
+        descripcion: >-
+          Explicar por qué se prioriza el diseño de equipos y contextos antes
+          de escribir código. Ubicar esta línea como fundamento para las
+          prácticas técnicas posteriores.
+      - id: cap-2-sec-2
+        titulo: "Repositorios y modelos estructurales"
+        descripcion: >-
+          Describir el aporte de architecting-teams-before-platforms y
+          three-context-framework. Resumir sus enfoques sobre roles,
+          responsabilidades y límites organizacionales.
+      - id: cap-2-sec-3
+        titulo: "Aplicación a decisiones arquitectónicas"
+        descripcion: >-
+          Mostrar cómo los modelos guían elecciones sobre resiliencia, flujos
+          de trabajo y gobernanza. Señalar ejemplos de uso en situaciones
+          concretas.
+      - id: cap-2-sec-4
+        titulo: "Preparación para la etapa técnica"
+        descripcion: >-
+          Sintetizar los aprendizajes y cómo dejan lista la base para la
+          declaratividad, GitOps y prácticas de operación que aparecerán en
+          partes siguientes.
+
+  - id: cap-3
+    titulo: "Arquitecturas vivas y eventos como código"
+    parte: "parte-3"
+    linea_narrativa: "plataformas-declarativas-y-flujos-gitops"
+    repositorios_clave:
+      - arkit8s
+      - eventflow
+      - eventflow-event-as-code
+      - 3scale-gitops-service
+      - deploymentconfig-2-deployment
+      - kubeland
+    secciones:
+      - id: cap-3-sec-1
+        titulo: "Visión declarativa y objetivos iniciales"
+        descripcion: >-
+          Contextualizar la transición desde documentación de arquitecturas
+          hacia su ejecución como código. Delimitar el problema que buscan
+          resolver las prácticas GitOps.
+      - id: cap-3-sec-2
+        titulo: "Repositorios clave y roles complementarios"
+        descripcion: >-
+          Caracterizar el aporte de arkit8s, eventflow y eventflow-event-as-code
+          en la descripción de arquitecturas y eventos. Explicar cómo se
+          articulan con servicios y migraciones.
+      - id: cap-3-sec-3
+        titulo: "Ejecución operada desde Git"
+        descripcion: >-
+          Describir cómo 3scale-gitops-service, deploymentconfig-2-deployment y
+          kubeland permiten que los cambios declarativos lleguen a entornos
+          Kubernetes/OpenShift. Detallar flujos y sincronización.
+      - id: cap-3-sec-4
+        titulo: "Integración con modelos organizacionales"
+        descripcion: >-
+          Relacionar las prácticas declarativas con los marcos de equipos
+          definidos previamente. Indicar cómo la estructura de trabajo influye
+          en la adopción de GitOps.
+      - id: cap-3-sec-5
+        titulo: "Aprendizajes y líneas abiertas"
+        descripcion: >-
+          Resumir hallazgos sobre mantener arquitecturas vivas, gestionar
+          eventos como código y escalar prácticas. Identificar retos
+          pendientes para las demos de resiliencia.
+
+  - id: cap-4
+    titulo: "Resiliencia aplicada en demos cloud native"
+    parte: "parte-4"
+    linea_narrativa: "resiliencia-y-operacion-cloud-native"
+    repositorios_clave:
+      - super-app-framework
+      - minimal-service
+      - updated-manifests-bundle
+      - sc-cloud-native-demo
+      - resilient-app
+      - resilient-frontend
+      - resilient-demo
+      - quarkus-txt-report-frontend
+    secciones:
+      - id: cap-4-sec-1
+        titulo: "Objetivo de resiliencia y alcance de las demos"
+        descripcion: >-
+          Introducir el propósito de validar robustez en entornos cloud
+          native. Definir qué escenarios se cubren y por qué son relevantes
+          para la línea narrativa.
+      - id: cap-4-sec-2
+        titulo: "Evolución de patrones desde mínimos a integrales"
+        descripcion: >-
+          Recorrer cómo minimal-service y super-app-framework sientan bases
+          que luego se expanden con updated-manifests-bundle y sc-cloud-native-demo.
+          Señalar progresión y ajustes clave.
+      - id: cap-4-sec-3
+        titulo: "Pruebas de estabilidad y observabilidad"
+        descripcion: >-
+          Explicar cómo resilient-app, resilient-frontend y resilient-demo
+          instrumentan fallos, monitoreo y recuperación. Destacar decisiones
+          sobre pruebas controladas.
+      - id: cap-4-sec-4
+        titulo: "Interfaces y reportes asociados"
+        descripcion: >-
+          Describir el rol de quarkus-txt-report-frontend y otros frontends
+          en mostrar resultados. Indicar cómo se conectan con la capa backend
+          y con la experiencia de evaluación.
+      - id: cap-4-sec-5
+        titulo: "Aprendizajes operativos y próximos pasos"
+        descripcion: >-
+          Sintetizar hallazgos sobre patrones que funcionaron, mejoras en
+          resiliencia y aspectos por seguir explorando en producción.
+
+  - id: cap-5
+    titulo: "Servicios dedicados y asistentes"
+    parte: "parte-4"
+    linea_narrativa: "servicios-especializados-y-asistentes"
+    repositorios_clave:
+      - demo-intelligent-administrator
+      - map-service-demo
+      - geto-server
+    secciones:
+      - id: cap-5-sec-1
+        titulo: "Contexto y necesidades que originan los servicios"
+        descripcion: >-
+          Explicar qué problemas concretos buscan resolver los servicios
+          especializados y por qué se desarrollan soluciones enfocadas.
+      - id: cap-5-sec-2
+        titulo: "Diseño y capacidades de cada repositorio"
+        descripcion: >-
+          Describir el rol de demo-intelligent-administrator, map-service-demo
+          y geto-server, resaltando sus funciones principales y casos de uso.
+      - id: cap-5-sec-3
+        titulo: "Integraciones y protocolos de comunicación"
+        descripcion: >-
+          Mostrar cómo los servicios se conectan con ecosistemas mayores,
+          incluyendo decisiones sobre gRPC, WebSocket u otras interfaces.
+      - id: cap-5-sec-4
+        titulo: "Resultados observables y aprendizajes"
+        descripcion: >-
+          Resumir los efectos de implementar estos servicios y qué indicios
+          dejan para futuras extensiones o mejoras.
+
+  - id: cap-6
+    titulo: "Ciencia de datos y ML en producción"
+    parte: "parte-4"
+    linea_narrativa: "ciencia-de-datos-y-ml-en-produccion"
+    repositorios_clave:
+      - soe-eda-runner
+      - deeplearning-usecases-lib
+      - katsuragi-java-nlp
+    secciones:
+      - id: cap-6-sec-1
+        titulo: "Motivación y alcance de los experimentos"
+        descripcion: >-
+          Introducir por qué se impulsan pruebas de datos y ML en entornos de
+          producción. Delimitar objetivos y riesgos considerados.
+      - id: cap-6-sec-2
+        titulo: "Ejecución de flujos y bibliotecas reutilizables"
+        descripcion: >-
+          Describir cómo soe-eda-runner y deeplearning-usecases-lib permiten
+          correr análisis y modelos de forma repetible. Explicar decisiones de
+          diseño para reutilización.
+      - id: cap-6-sec-3
+        titulo: "Exploraciones de NLP en Java"
+        descripcion: >-
+          Presentar katsuragi-java-nlp como intento de construir capacidades de
+          lenguaje en Java. Resumir retos técnicos y aproximaciones elegidas.
+      - id: cap-6-sec-4
+        titulo: "Lecciones sobre llevar ML a producción"
+        descripcion: >-
+          Sintetizar aprendizajes sobre infraestructura, rendimiento y
+          mantenibilidad al ejecutar flujos de datos en entornos reales.
+
+  - id: cap-7
+    titulo: "Mundos interactivos y juego"
+    parte: "parte-5"
+    linea_narrativa: "creatividad-y-mundos-ludicos"
+    repositorios_clave:
+      - ascendant-faith-rpg
+      - java-rpg-proto
+      - battlebit-tower
+    secciones:
+      - id: cap-7-sec-1
+        titulo: "Contexto creativo y motivaciones lúdicas"
+        descripcion: >-
+          Enmarcar por qué se desarrollan experiencias de juego dentro del
+          ecosistema. Relacionar estas exploraciones con la visión general del
+          libro.
+      - id: cap-7-sec-2
+        titulo: "Repositorios y estilos de experiencia"
+        descripcion: >-
+          Describir las propuestas de ascendant-faith-rpg, java-rpg-proto y
+          battlebit-tower, destacando estética, mecánicas y objetivos de cada
+          uno.
+      - id: cap-7-sec-3
+        titulo: "Narrativa interactiva y aspectos técnicos"
+        descripcion: >-
+          Explicar cómo se modelan historias, personajes y sistemas de juego.
+          Señalar decisiones técnicas que soportan la jugabilidad.
+      - id: cap-7-sec-4
+        titulo: "Aprendizajes y conexiones con otras líneas"
+        descripcion: >-
+          Resumir qué enseñan estos experimentos sobre creatividad técnica y
+          cómo dialogan con la visión inicial de tecnología con propósito.
+
+  - id: cap-8
+    titulo: "Presencia digital"
+    parte: "parte-5"
+    linea_narrativa: "presencia-digital-e-institucional"
+    repositorios_clave:
+      - acofitec
+    secciones:
+      - id: cap-8-sec-1
+        titulo: "Propósito institucional y alcance"
+        descripcion: >-
+          Explicar por qué se crea el sitio de Acofitec y qué necesita
+          comunicar dentro del ecosistema de proyectos.
+      - id: cap-8-sec-2
+        titulo: "Arquitectura del sitio y contenidos"
+        descripcion: >-
+          Describir la estructura del repositorio acofitec, incluyendo
+          componentes clave, navegación y enfoque de presentación.
+      - id: cap-8-sec-3
+        titulo: "Integración con la narrativa general"
+        descripcion: >-
+          Mostrar cómo la presencia digital complementa los capítulos previos y
+          sirve como vitrina formal de los experimentos técnicos.
+      - id: cap-8-sec-4
+        titulo: "Aprendizajes y líneas de mejora"
+        descripcion: >-
+          Sintetizar observaciones sobre mantener una presencia institucional
+          alineada con la visión del libro y posibles mejoras futuras.

@@ -1,0 +1,20 @@
+capitulos:
+  - id: cap-01
+    observaciones:
+      - tipo: "repositorio"
+        repo: "all-about-me"
+        comentario: "Se describe como contenedor identitario y referencia biográfica, alineado con la ficha."
+      - tipo: "repositorio"
+        repo: "libro-aventuras-de-conocimiento"
+        comentario: "Se presenta como infraestructura editorial central, consistente con la ficha."
+      - tipo: "repositorio"
+        repo: "the-wise-tech"
+        comentario: "La orientación a tecnología con sentido humano coincide con la ficha; sin discrepancias técnicas."
+  - id: cap-02
+    observaciones:
+      - tipo: "repositorio"
+        repo: "architecting-teams-before-platforms"
+        comentario: "Se usa como guía de organización previa a la tecnología, coherente con su propósito conceptual."
+      - tipo: "repositorio"
+        repo: "three-context-framework"
+        comentario: "Se describe como arquitectura de tres contextos para resiliencia, acorde a la ficha; la asociación a flujos GitOps es inferida y podría matizarse al no estar explícita en la documentación base."

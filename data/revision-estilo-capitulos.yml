@@ -3,3 +3,9 @@ capitulos:
     observaciones: []
   - id: cap-02
     observaciones: []
+  - id: cap-03
+    observaciones:
+      - comentario: "Mantiene tono serio y directo, estructura solicitada y referencias explícitas a línea narrativa y fichas."
+  - id: cap-04
+    observaciones:
+      - comentario: "Sigue el formato de secciones con lenguaje claro y sin juicios de valor; alinea cada apartado con los repositorios clave."

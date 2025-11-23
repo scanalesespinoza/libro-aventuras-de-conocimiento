@@ -10,11 +10,27 @@ Este documento concentra las pautas para redactar capítulos y el prólogo del l
 
 Mientras este archivo exista y se mantenga estable, no hace falta volver a explicar el estilo en cada tarea: basta con leerlo y respetarlo.
 
+## Cómo encaja este archivo en el flujo
+
+Cuando se redacte cualquier parte del libro, se deben combinar tres piezas de contexto:
+
+- `data/contexto-autor.md`: quién habla, desde dónde y con qué tono.
+- `docs/instrucciones-redaccion.md` (este archivo): cómo se redacta, en qué formato y con qué pasos previos.
+- `data/indice-libro.yml` + `data/esquema-capitulos.yml`: qué capítulos existen y cómo se estructuran.
+
+Cada tarea de redacción debe empezar así:
+
+1. Leer `data/contexto-autor.md`.
+2. Leer `docs/instrucciones-redaccion.md`.
+3. Leer las piezas específicas (fichas, líneas narrativas, índice y esquema) según el capítulo o prólogo a trabajar.
+4. Recién ahí redactar el texto solicitado.
+
 ## Plantilla para redacción de capítulos
 
 **Task – Redactar el capítulo `{CAP_ID}` del libro**
 
 Entradas:
+- `docs/instrucciones-redaccion.md`
 - `data/contexto-autor.md`
 - `data/fichas-documentales.yml`
 - `data/lineas-narrativas.yml`
@@ -25,8 +41,11 @@ Objetivo:
 Escribir el texto completo del capítulo `{CAP_ID}`, siguiendo el esquema definido para ese capítulo y el estilo narrativo descrito en `data/contexto-autor.md`.
 
 Pasos previos:
-1. Leer por completo `data/contexto-autor.md` y tomarlo como referencia de tono, forma de relatar y principios de trabajo.
-2. Mantener ese estilo en todo el texto del capítulo.
+1. Leer `data/contexto-autor.md` para comprender tono, principios y estilo.
+2. Leer `docs/instrucciones-redaccion.md` y seguir estrictamente estas reglas de proceso y estilo.
+3. Consultar `data/indice-libro.yml` y `data/esquema-capitulos.yml` para localizar el capítulo `{CAP_ID}` y sus secciones.
+4. Revisar en `data/fichas-documentales.yml` y `data/lineas-narrativas.yml` la información asociada al capítulo.
+5. Mantener ese estilo en todo el texto del capítulo.
 
 Instrucciones de contenido:
 1. Localizar en `data/indice-libro.yml` el capítulo con id = `{CAP_ID}`: título, línea narrativa asociada, `repositorios_clave`.
@@ -58,6 +77,7 @@ Salida:
 **Task – Redactar el prólogo del libro**
 
 Entradas:
+- `docs/instrucciones-redaccion.md`
 - `data/contexto-autor.md`
 - `data/lineas-narrativas.yml`
 - `data/indice-libro.yml`
@@ -67,7 +87,8 @@ Escribir el prólogo del libro como una introducción sobria y descriptiva, alin
 
 Pasos previos:
 1. Leer `data/contexto-autor.md` para entender quién es el autor, qué ámbitos trabaja y qué tono debe tener el texto.
-2. Leer las líneas narrativas e índice para comprender la estructura general del libro.
+2. Leer `docs/instrucciones-redaccion.md` y seguir estas pautas de proceso y estilo.
+3. Leer las líneas narrativas e índice para comprender la estructura general del libro.
 
 Contenido mínimo del prólogo:
 - Explicar qué tipo de libro es: un documental del contenido de varios repositorios, construido a partir de años de trabajo, experimentos y uso de IA como apoyo.

@@ -1,0 +1,492 @@
+- id: all-about-me
+  title: "all-about-me"
+  repo_url: "https://github.com/scanalesespinoza/all-about-me"
+  resumen: >-
+    Repositorio personal con el nombre "all-about-me" que parece reunir información o ejercicios sobre la propia identidad del autor.
+    Sirve como punto de partida para organizar ideas y materiales personales.
+    Actúa como contenedor ligero sin detalles técnicos explícitos en el inventario.
+  contexto: >-
+    Surge como espacio para explorar o presentar la identidad personal y profesional, probablemente a modo de perfil o laboratorio individual.
+  proposito: >-
+    Recopilar y estructurar contenidos sobre la persona autora, ya sea biográficos, profesionales o de autopresentación.
+  rol_en_el_ecosistema: >-
+    No definido; funciona como pieza autónoma de referencia sobre el autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Puede servir como ejemplo de repositorio autobiográfico que contextualiza otros proyectos del ecosistema.
+
+- id: the-wise-tech
+  title: "the-wise-tech"
+  repo_url: "https://github.com/scanalesespinoza/the-wise-tech"
+  resumen: >-
+    Proyecto orientado a usar tecnología para mejorar la calidad de vida y fomentar conexiones humanas significativas.
+    Se menciona uso de Python, lo que sugiere prototipos o servicios experimentales.
+    Representa una iniciativa temática más que un producto terminado.
+  contexto: >-
+    Probablemente nace de una reflexión sobre impacto social de la tecnología y la búsqueda de aplicaciones con sentido humano.
+  proposito: >-
+    Explorar soluciones tecnológicas que aporten bienestar y relaciones humanas, posiblemente mediante prototipos o demostraciones.
+  rol_en_el_ecosistema: >-
+    Aún no definido; podría alimentar ideas humanistas para otros proyectos técnicos del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil como ejemplo de proyecto con enfoque ético o social dentro del conjunto de repositorios.
+
+- id: libro-aventuras-de-conocimiento
+  title: "libro-aventuras-de-conocimiento"
+  repo_url: "https://github.com/scanalesespinoza/libro-aventuras-de-conocimiento"
+  resumen: >-
+    Repositorio principal del libro "Aventuras de Conocimiento" que organiza datos, herramientas y guiones de escritura.
+    Incluye inventarios, scripts y notebooks asociados a la construcción del texto.
+    Funciona como base de trabajo editorial y técnica para el resto de tareas.
+  contexto: >-
+    Nace de la necesidad de estructurar la producción del libro, capturando insumos y procesos de generación de contenido.
+  proposito: >-
+    Centralizar el desarrollo del libro, incluyendo materiales de investigación, automatizaciones y reportes.
+  rol_en_el_ecosistema: >-
+    Actúa como núcleo coordinador que referencia y documenta otros repositorios relacionados.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Es el repositorio que articula todo el proyecto editorial; sirve para mostrar cómo se genera el libro de manera iterativa.
+
+- id: eventflow
+  title: "eventflow"
+  repo_url: "https://github.com/scanalesespinoza/eventflow"
+  resumen: >-
+    Plataforma inteligente de gestión de eventos que abarca espacios, actividades, ponentes y asistentes.
+    Promete planificación personalizada y automatizada.
+    Usa Java como tecnología principal según el inventario.
+  contexto: >-
+    Surge de la necesidad de organizar eventos complejos con recomendaciones y logística centralizada.
+  proposito: >-
+    Probar una solución integral para administración de eventos y personalización de agendas.
+  rol_en_el_ecosistema: >-
+    Podría servir de base para otros repositorios derivados, como definiciones de eventos como código.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Buen ejemplo para ilustrar aplicaciones empresariales con automatización y planeación de eventos.
+
+- id: arkit8s
+  title: "arkit8s"
+  repo_url: "https://github.com/scanalesespinoza/arkit8s"
+  resumen: >-
+    Propuesta de arquitectura viva y GitOps para Kubernetes y OpenShift, pronunciado como “architects”.
+    Plantea mecanismos para mantener la arquitectura como artefacto vivo.
+    Basado en Python según el inventario.
+  contexto: >-
+    Nace de explorar cómo versionar y automatizar la arquitectura en entornos cloud nativos.
+  proposito: >-
+    Experimentar con flujos GitOps que mantengan documentación y despliegues arquitectónicos actualizados.
+  rol_en_el_ecosistema: >-
+    Puede integrarse como marco de referencia para otros proyectos de infraestructura del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para explicar conceptos de arquitecturas vivas y GitOps dentro del libro.
+
+- id: demo-intelligent-administrator
+  title: "demo-intelligent-administrator"
+  repo_url: "https://github.com/scanalesespinoza/demo-intelligent-administrator"
+  resumen: >-
+    Repositorio de demostración centrado en un administrador inteligente.
+    Usa Java según el inventario, probablemente como backend de ejemplo.
+    Sirve como prueba de concepto más que como producto final.
+  contexto: >-
+    Posiblemente surge para mostrar capacidades de automatización o asistentes en gestión administrativa.
+  proposito: >-
+    Probar ideas de administración inteligente mediante un demo implementado en Java.
+  rol_en_el_ecosistema: >-
+    No definido; podría conectar con otras demos de automatización del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo breve de prototipo funcional para explicar automatización asistida.
+
+- id: architecting-teams-before-platforms
+  title: "architecting-teams-before-platforms"
+  repo_url: "https://github.com/scanalesespinoza/architecting-teams-before-platforms"
+  resumen: >-
+    Repositorio titulado "Architecting Teams before Platforms" orientado a diseño organizacional previo a tecnología.
+    No declara tecnologías específicas.
+    Parece enfocarse en principios o guías de arquitectura organizacional.
+  contexto: >-
+    Surge de la reflexión sobre cómo estructurar equipos antes de definir plataformas tecnológicas.
+  proposito: >-
+    Explorar marcos o materiales que prioricen el diseño de equipos y responsabilidades.
+  rol_en_el_ecosistema: >-
+    Podría servir como base conceptual para otros proyectos técnicos o documentales.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para discutir cómo la organización condiciona la arquitectura técnica.
+
+- id: soe-eda-runner
+  title: "soe-eda-runner"
+  repo_url: "https://github.com/scanalesespinoza/soe-eda-runner"
+  resumen: >-
+    Objetivo descrito: recibir código Python, empaquetar dependencias y ejecutarlo como Job o Deployment configurable.
+    Permite integración mediante ConfigMaps, datos en PVC y GitOps/MLOps.
+    Tecnología principal Python.
+  contexto: >-
+    Nace de necesidades de ejecutar flujos de entrenamiento o inferencia de forma flexible en Kubernetes.
+  proposito: >-
+    Proveer un corredor que automatice empaquetado y despliegue de código de ciencia de datos o ML.
+  rol_en_el_ecosistema: >-
+    Puede complementar otros proyectos de MLOps o infraestructura del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo práctico para explicar orquestación de jobs ML con GitOps.
+
+- id: deeplearning-usecases-lib
+  title: "deeplearning-usecases-lib"
+  repo_url: "https://github.com/scanalesespinoza/deeplearning-usecases-lib"
+  resumen: >-
+    Biblioteca de casos de uso de deep learning según el nombre y descripción.
+    Construida en Python.
+    Probablemente reúne ejemplos o utilidades reutilizables.
+  contexto: >-
+    Puede surgir de la necesidad de consolidar ejemplos de aprendizaje profundo para otros proyectos.
+  proposito: >-
+    Ofrecer implementaciones de referencia o plantillas para casos de uso comunes de deep learning.
+  rol_en_el_ecosistema: >-
+    Sirve como base de componentes reutilizables para demos o proyectos ML relacionados.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Relevante para ilustrar la evolución de experimentos ML dentro del ecosistema.
+
+- id: quarkus-txt-report-frontend
+  title: "quarkus-txt-report-frontend"
+  repo_url: "https://github.com/scanalesespinoza/quarkus-txt-report-frontend"
+  resumen: >-
+    Frontend en Java para mostrar una métrica simple sobre despliegues no listos.
+    Parece complementar un backend orientado a informes de texto.
+    Funciona como interfaz ligera para monitoreo básico.
+  contexto: >-
+    Surge para visualizar estados de despliegue de manera sencilla durante pruebas o demos.
+  proposito: >-
+    Entregar una vista rápida de reportes de despliegue usando Quarkus o servicios asociados.
+  rol_en_el_ecosistema: >-
+    Potencial complemento de otros servicios de monitoreo o reportes dentro de los repositorios del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo de frontend mínimo para ilustrar comunicación con servicios de backend.
+
+- id: acofitec
+  title: "acofitec"
+  repo_url: "https://github.com/scanalesespinoza/acofitec"
+  resumen: >-
+    Sitio principal de acofitec.cl según la descripción.
+    Implementado en Java.
+    Repositorio orientado a presencia web institucional.
+  contexto: >-
+    Probablemente nace para alojar o mantener el sitio oficial de Acofitec.
+  proposito: >-
+    Desarrollar y desplegar la web principal de la entidad.
+  rol_en_el_ecosistema: >-
+    Actúa como pieza de presencia digital dentro del conjunto de proyectos del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Puede servir como ejemplo de proyecto web institucional dentro del ecosistema.
+
+- id: 3scale-gitops-service
+  title: "3scale-gitops-service"
+  repo_url: "https://github.com/scanalesespinoza/3scale-gitops-service"
+  resumen: >-
+    Servicio que revisa un repositorio con servicios en CSV y los sincroniza en 3Scale usando comandos de toolbox.
+    No especifica tecnología principal en el inventario.
+    Orientado a automatizar la integración de APIs con 3Scale vía GitOps.
+  contexto: >-
+    Surge para facilitar la gestión de configuraciones de APIs mediante control de versiones.
+  proposito: >-
+    Automatizar la importación y sincronización de definiciones de servicios en la plataforma 3Scale.
+  rol_en_el_ecosistema: >-
+    Complementa iniciativas de GitOps e integración de APIs dentro de los proyectos del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Apto para ilustrar integración entre gestión de APIs y prácticas de GitOps.
+
+- id: ascendant-faith-rpg
+  title: "ascendant-faith-rpg"
+  repo_url: "https://github.com/scanalesespinoza/ascendant-faith-rpg"
+  resumen: >-
+    Sistema de rol mítico donde mortales trascienden límites físicos y espirituales.
+    Se centra en desafiar destino, dioses y el mundo.
+    No declara tecnología principal, por lo que podría ser material de diseño o reglas.
+  contexto: >-
+    Parece originarse como proyecto creativo de juego de rol con temática de ascenso espiritual.
+  proposito: >-
+    Desarrollar un sistema RPG original que explore progreso y superación de los personajes.
+  rol_en_el_ecosistema: >-
+    Repositorio creativo independiente; no se observa relación directa con proyectos técnicos.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Podría aportar una faceta lúdica o narrativa en el libro, mostrando diversidad de intereses.
+
+- id: eventflow-event-as-code
+  title: "eventflow-event-as-code"
+  repo_url: "https://github.com/scanalesespinoza/eventflow-event-as-code"
+  resumen: >-
+    Repositorio para definiciones de eventos como código dentro de EventFlow.
+    No declara tecnología específica.
+    Orientado a representar configuraciones de eventos de forma declarativa.
+  contexto: >-
+    Surge como complemento de la plataforma EventFlow para versionar definiciones de eventos.
+  proposito: >-
+    Mantener las entidades y reglas de eventos en archivos versionados y reutilizables.
+  rol_en_el_ecosistema: >-
+    Extiende el proyecto EventFlow, proporcionando artefactos declarativos.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo de enfoque "eventos como código" aplicable a gestión de eventos y GitOps.
+
+- id: super-app-framework
+  title: "super-app-framework"
+  repo_url: "https://github.com/scanalesespinoza/super-app-framework"
+  resumen: >-
+    Framework de desarrollo cloud nativo para servicios y funciones resilientes.
+    Enfocado en alta disponibilidad y tolerancia a fallos.
+    Utiliza Java como tecnología principal.
+  contexto: >-
+    Nace de la necesidad de construir aplicaciones robustas en entornos distribuidos.
+  proposito: >-
+    Proporcionar patrones y componentes para crear "super apps" resistentes y seguras.
+  rol_en_el_ecosistema: >-
+    Puede servir de base para otros demos o proyectos Java centrados en resiliencia.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ilustra la búsqueda de marcos resilientes y escalables dentro del portafolio del autor.
+
+- id: updated-manifests-bundle
+  title: "updated-manifests-bundle"
+  repo_url: "https://github.com/scanalesespinoza/updated-manifests-bundle"
+  resumen: >-
+    MVP ligero de monitorización de estabilidad en Kubernetes/OpenShift con Quarkus nativo.
+    Reúne manifiestos actualizados para desplegar la solución.
+    No declara tecnología principal específica en el inventario.
+  contexto: >-
+    Surge para evaluar estabilidad de despliegues cloud nativos mediante recursos mínimos.
+  proposito: >-
+    Empaquetar manifiestos que permitan probar monitoreo de estabilidad con Quarkus nativo.
+  rol_en_el_ecosistema: >-
+    Relacionado con otras iniciativas de resiliencia y observabilidad del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Puede servir como ejemplo de MVP enfocado en confiabilidad en Kubernetes.
+
+- id: deploymentconfig-2-deployment
+  title: "deploymentconfig-2-deployment"
+  repo_url: "https://github.com/scanalesespinoza/deploymentconfig-2-deployment"
+  resumen: >-
+    Página web para migrar despliegues, posiblemente de DeploymentConfig a Deployment.
+    Usa Java según el inventario.
+    Enfocada en asistir procesos de migración en OpenShift/Kubernetes.
+  contexto: >-
+    Nace de la necesidad de mover cargas antiguas basadas en DeploymentConfig hacia objetos Deployment estándar.
+  proposito: >-
+    Proporcionar una interfaz o utilidad que guíe la migración de configuraciones.
+  rol_en_el_ecosistema: >-
+    Conecta con otros proyectos de modernización cloud native dentro del portafolio.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo claro de herramienta de transición tecnológica para explicar migraciones.
+
+- id: sc-cloud-native-demo
+  title: "sc-cloud-native-demo"
+  repo_url: "https://github.com/scanalesespinoza/sc-cloud-native-demo"
+  resumen: >-
+    Demo generada por code.quarkus.io que muestra una aplicación cloud nativa básica.
+    Emplea HTML como tecnología listada, posiblemente para la interfaz.
+    Sirve como ejemplo de arranque rápido con Quarkus.
+  contexto: >-
+    Surge para experimentar con la plantilla generada automáticamente por Quarkus.
+  proposito: >-
+    Proveer un punto de partida para demos de aplicaciones nativas en la nube.
+  rol_en_el_ecosistema: >-
+    Funciona como demo base que puede alimentar otros experimentos Java del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para mostrar cómo se parte de plantillas estándar antes de iterar en proyectos más complejos.
+
+- id: katsuragi-java-nlp
+  title: "katsuragi-java-nlp"
+  repo_url: "https://github.com/scanalesespinoza/katsuragi-java-nlp"
+  resumen: >-
+    Proyecto de procesamiento de lenguaje natural en Java creado desde cero.
+    Busca implementar NLP sin depender de grandes frameworks.
+    Tecnología principal: Java.
+  contexto: >-
+    Nace como experimento didáctico para comprender y construir componentes NLP básicos.
+  proposito: >-
+    Implementar un stack NLP propio en Java y explorar sus límites.
+  rol_en_el_ecosistema: >-
+    Repositorio experimental que puede alimentar otros proyectos de IA del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Buen ejemplo para ilustrar aprendizaje y construcción manual de NLP.
+
+- id: minimal-service
+  title: "minimal-service"
+  repo_url: "https://github.com/scanalesespinoza/minimal-service"
+  resumen: >-
+    Proyecto que demuestra cómo construir servicios mínimos, de alto rendimiento y livianos en Java.
+    Enfatiza sencillez y eficiencia.
+    Funciona como referencia de microservicios compactos.
+  contexto: >-
+    Surge para mostrar prácticas de diseño de servicios minimalistas en Java.
+  proposito: >-
+    Proveer una guía o ejemplo de implementación de servicios ligeros y performantes.
+  rol_en_el_ecosistema: >-
+    Puede actuar como base para otros servicios o demos Java más complejos.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para explicar principios de servicios mínimos y eficientes en el capítulo de arquitectura.
+
+- id: three-context-framework
+  title: "three-context-framework"
+  repo_url: "https://github.com/scanalesespinoza/three-context-framework"
+  resumen: >-
+    Framework que propone una arquitectura de tres contextos para microservicios resilientes.
+    Incluye organización del código, manejo robusto de errores y resiliencia.
+    Usa HTML según inventario, quizás para documentación o ejemplos.
+  contexto: >-
+    Nace de la necesidad de estructurar microservicios con responsabilidad clara y robustez.
+  proposito: >-
+    Ofrecer un enfoque estructurado para aplicaciones modernas con resiliencia incorporada.
+  rol_en_el_ecosistema: >-
+    Puede alimentar otros proyectos de resiliencia y buenas prácticas en el portafolio del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Material valioso para explicar patrones arquitectónicos de microservicios.
+
+- id: resilient-demo
+  title: "resilient-demo"
+  repo_url: "https://github.com/scanalesespinoza/resilient-demo"
+  resumen: >-
+    Instrucciones para montar un entorno demo que exhibe resiliencia de una aplicación Quarkus con frontend y backend.
+    Usa PostgreSQL y contenedores (Podman) para la infraestructura.
+    Enfocado en demostrar patrones de resiliencia.
+  contexto: >-
+    Surge para mostrar en vivo las características de resiliencia de un stack Quarkus completo.
+  proposito: >-
+    Proveer guías y artefactos para montar una demo reproducible de resiliencia de servicios.
+  rol_en_el_ecosistema: >-
+    Conecta con otros repos de resiliencia como resilient-app y resilient-frontend.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Caso práctico para ilustrar resiliencia extremo a extremo en demos técnicas.
+
+- id: resilient-frontend
+  title: "resilient-frontend"
+  repo_url: "https://github.com/scanalesespinoza/resilient-frontend"
+  resumen: >-
+    Frontend en JavaScript que gestiona fallas hacia un backend resiliente.
+    Complementa la demo de resiliencia con interfaz de usuario.
+    Orientado a demostrar comportamiento del cliente ante errores.
+  contexto: >-
+    Nace para acompañar demos de resiliencia mostrando la perspectiva del usuario final.
+  proposito: >-
+    Ilustrar estrategias de manejo de fallos en la capa de frontend.
+  rol_en_el_ecosistema: >-
+    Parte del conjunto de demos de resiliencia junto con resilient-app y resilient-demo.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para explicar patrones de tolerancia a fallos en interfaces web.
+
+- id: resilient-app
+  title: "resilient-app"
+  repo_url: "https://github.com/scanalesespinoza/resilient-app"
+  resumen: >-
+    Aplicación Java que integra un servicio web Quarkus con base de datos para demostrar resiliencia.
+    Sirve como backend de las demos asociadas.
+    Enfatiza integraciones robustas con persistencia.
+  contexto: >-
+    Surge para ejemplificar cómo un backend puede manejar fallos y mantener servicio.
+  proposito: >-
+    Implementar un servicio resiliente que soporte interrupciones y recupere conectividad.
+  rol_en_el_ecosistema: >-
+    Parte del paquete de demos de resiliencia junto con resilient-frontend y resilient-demo.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Aporta el componente de servidor en la narrativa de resiliencia.
+
+- id: kubeland
+  title: "kubeland"
+  repo_url: "https://github.com/scanalesespinoza/kubeland"
+  resumen: >-
+    Cliente de visualización para cargas de trabajo en Kubernetes.
+    Implementado en Java según inventario.
+    Ofrece una vista centrada en recursos desplegados.
+  contexto: >-
+    Nace para facilitar el monitoreo visual de workloads en clústeres Kubernetes.
+  proposito: >-
+    Presentar una interfaz o cliente que represente gráficamente los recursos en ejecución.
+  rol_en_el_ecosistema: >-
+    Se relaciona con otras herramientas de observabilidad y administración cloud native.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo de herramienta de visualización para explicar observabilidad amigable.
+
+- id: map-service-demo
+  title: "map-service-demo"
+  repo_url: "https://github.com/scanalesespinoza/map-service-demo"
+  resumen: >-
+    Servicio de mapas en Quarkus expuesto vía gRPC.
+    Java como tecnología principal.
+    Orientado a demostrar servicios geoespaciales ligeros.
+  contexto: >-
+    Surge como demo técnica para gRPC y servicios de mapas en entornos cloud.
+  proposito: >-
+    Probar implementación de un servicio de mapas con comunicación eficiente gRPC.
+  rol_en_el_ecosistema: >-
+    Demo complementaria dentro de los ejemplos Quarkus del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Útil para ilustrar uso de gRPC y servicios de mapas en demos de backend.
+
+- id: geto-server
+  title: "geto-server"
+  repo_url: "https://github.com/scanalesespinoza/geto-server"
+  resumen: >-
+    Servidor de puertas basadas en websockets según la descripción.
+    Implementado en Java.
+    Se orienta a comunicaciones en tiempo real.
+  contexto: >-
+    Nace para experimentar con conexiones persistentes y control de accesos o eventos.
+  proposito: >-
+    Proveer un servidor orientado a websockets que gestione puertas o canales de comunicación.
+  rol_en_el_ecosistema: >-
+    Puede complementar otros proyectos de tiempo real o juegos del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Ejemplo para discutir patrones de comunicación en tiempo real basados en websockets.
+
+- id: java-rpg-proto
+  title: "java-rpg-proto"
+  repo_url: "https://github.com/scanalesespinoza/java-rpg-proto"
+  resumen: >-
+    Prototipo de juego RPG en Java puro.
+    Busca construir un juego de rol estándar sin frameworks pesados.
+    Sirve como demostración de mecánicas básicas.
+  contexto: >-
+    Surge del interés en crear un RPG propio y practicar desarrollo de juegos en Java.
+  proposito: >-
+    Implementar un prototipo jugable que sirva de base para futuras expansiones.
+  rol_en_el_ecosistema: >-
+    Relacionado con otros proyectos creativos y de tiempo real del autor.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Muestra la faceta de desarrollo de juegos dentro del portafolio.
+
+- id: battlebit-tower
+  title: "battlebit-tower"
+  repo_url: "https://github.com/scanalesespinoza/battlebit-tower"
+  resumen: >-
+    Proyecto "BattleBit Tower" asociado a diseño de juego o experiencia interactiva.
+    Usa SCSS según inventario, sugiriendo énfasis en frontend o estilos.
+    Probablemente incluye interfaz gráfica ligera.
+  contexto: >-
+    Puede surgir como experimento de juego web o maqueta visual.
+  proposito: >-
+    Desarrollar un prototipo de juego o demostración visual con énfasis en estilo.
+  rol_en_el_ecosistema: >-
+    Repositorio creativo independiente, sin conexiones claras con el resto.
+  estado_actual: "desconocido"
+  notas_para_el_libro: >-
+    Puede emplearse para ilustrar exploraciones lúdicas y de diseño visual.

@@ -2,6 +2,12 @@
 
 Este documento concentra las pautas para redactar capítulos y el prólogo del libro usando el archivo `data/contexto-autor.md` como referencia obligatoria.
 
+## Cómo se usa este documento
+
+- Nada se escribe "desde cero": siempre empieza leyendo `data/contexto-autor.md` y este archivo.
+- Úsalo como contrato editorial: define tono, formato y proceso para todo el libro.
+- Revisa las entradas específicas del capítulo (fichas, líneas narrativas, índice y esquema) antes de escribir.
+
 ## Propósito de `data/contexto-autor.md`
 
 - Define quién habla: perfil, trayectoria y focos (cloud native, plataformas, comunidad).
@@ -24,6 +30,19 @@ Cada tarea de redacción debe empezar así:
 2. Leer `docs/instrucciones-redaccion.md`.
 3. Leer las piezas específicas (fichas, líneas narrativas, índice y esquema) según el capítulo o prólogo a trabajar.
 4. Recién ahí redactar el texto solicitado.
+
+### Patrón estándar de uso en Codex
+
+1. Cargar el contexto del autor (`data/contexto-autor.md`).
+2. Cargar las reglas de redacción (`docs/instrucciones-redaccion.md`).
+3. Cargar estructura y datos del capítulo:
+   - `data/indice-libro.yml`
+   - `data/esquema-capitulos.yml`
+   - `data/fichas-documentales.yml`
+   - `data/lineas-narrativas.yml`
+4. Recién ahí redactar el capítulo o prólogo en Markdown siguiendo el esquema.
+
+Con este flujo se mantiene coherencia de estilo, tono y contenido en todas las entregas.
 
 ## Plantilla para redacción de capítulos
 
@@ -103,3 +122,11 @@ Estilo:
 
 Salida:
 - Texto en Markdown, con encabezado `# Prólogo` o `## Prólogo`, listo para guardarse como `manuscrito/prologo.md`.
+
+## Checklist rápido antes de redactar
+
+- [ ] ¿Leíste `data/contexto-autor.md` y `docs/instrucciones-redaccion.md`?
+- [ ] ¿Consultaste índice, esquema y líneas narrativas del capítulo o prólogo?
+- [ ] ¿Identificaste las fichas de los repositorios clave?
+- [ ] ¿Tienes claro el tono: serio, tranquilo, sin juicios de valor ni ego?
+- [ ] ¿Mantienes el formato Markdown solicitado para encabezados y secciones?
